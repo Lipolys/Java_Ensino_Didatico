@@ -13,7 +13,7 @@ public class ClausulaThrows
         String frase = JOptionPane.showInputDialog(null, "Insira uma nova frase: ");
         try
         {
-            FileWriter file = new FileWriter("/media/lipolys/HD/Arquivos/Codigos e Faculdade/5o Periodo/Prog-Web-1/estudo/temp/temp.txt", true);
+            FileWriter file = new FileWriter("/home/lipolys/Documentos/Arquivos/Codigos e Faculdade/Java_Ensino_Didatico/temp/temp.txt", true);
             PrintWriter out = new PrintWriter(file);
             out.println(frase);
             file.close();
