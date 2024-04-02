@@ -29,8 +29,7 @@ public class Cap03Atividade01 {
             JOptionPane.showMessageDialog(null, "ITEM: " + nomeProduto + "\nVALOR ORIGINAL: R$" + valorDouble + "\nDESCONTO: R$"
                                           + desconto + "\nVALOR FINAL: R$" + novoValor);
             System.exit(0);
-        }catch (NullPointerException e)
-        {
+        }catch (NullPointerException e) {
             JOptionPane.showMessageDialog(null, "Encerrando a Operação");
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Erro na execução: " + e.getMessage());
