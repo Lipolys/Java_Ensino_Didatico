@@ -1,9 +1,4 @@
-package exercicios;
-
-import atividades.Cap03Atividade01;
-import atividades.Cap03Atividade02;
-import atividades.Cap03Atividade03;
-import atividades.Cap03Atividade04;
+package atividades;
 
 import javax.swing.*;
 
