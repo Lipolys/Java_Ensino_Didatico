@@ -8,5 +8,7 @@ public class MetodoValueOf {
         double d = 498456.84645;
         String x = String.valueOf(a) + " " + String.valueOf(b) + " " + String.valueOf(c) + " " + String.valueOf(d);
         System.out.println(x);
+        String y = "" + a  + b + c + d;
+        System.out.println(y);
     }
 }
